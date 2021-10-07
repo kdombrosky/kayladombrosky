@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 // import components
 import Nav from './components/Nav/';
+import Hero from './components/Hero';
 import About from './components/About';
 import Footer from './components/Footer/';
 
@@ -19,12 +20,13 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div className="App container-fluid">
+    <div className="">
       <Nav 
         categories={categories} 
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory} 
       />
+      <Hero />
       <About />
 
       <Footer />

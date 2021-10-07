@@ -15,7 +15,7 @@ function Nav(props) {
 
     return(
         <header>
-            <nav className="navbar navbar-light sticky-top navbar-expand-lg"> 
+            <nav className="navbar navbar-light fixed-top navbar-expand-lg bg-light"> 
                 <div className="container">
                 <a className="navbar-brand" href="/">
                     <img 

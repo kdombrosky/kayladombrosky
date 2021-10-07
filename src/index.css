@@ -25,11 +25,30 @@ header {
 }
 
 
+
 .navbar {
   padding-top: 0;
 }
 
+.container-space {
+  padding: 6rem 5rem;
+}
 
+.profile-pic {
+  border-radius: 3rem;
+}
+
+.blob-container {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.heading-center {
+  position: absolute;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
