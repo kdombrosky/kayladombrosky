@@ -55,7 +55,9 @@ header {
   left: 20%;
 }
 
-
+.navbar-collapse {
+  justify-content: end;
+}
 
 
 

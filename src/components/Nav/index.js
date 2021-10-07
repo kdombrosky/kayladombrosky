@@ -18,31 +18,39 @@ function Nav(props) {
         <header>
             <nav className="navbar navbar-light fixed-top navbar-expand-lg bg-light"> 
                 <div className="container">
-                <a className="navbar-brand" href="/">
-                    <img 
-                    src={logo2}
-                    alt="name-logo" 
-                    className="icon-logo"
-                    /> ayla Dombrosky
-                </a>
-                    <ul className="navbar-nav mb-2 d-flex">
-                        {categories.map((category) => (
-                        // Set class to 'active' if the current category has been selected 
-                        <li
-                        className={`nav-item mx-2 fs-5 ${currentCategory.name === category.name && `active`}`}
-                        key={category.name}
-                        data-testid={`#${category.name}`}
-                        >
-                            <span onClick={() => { setCurrentCategory(category) }}>
-                            <a 
-                            href={`#${category.name}`}
-                            className='nav-link '>
-                                {category.name}
-                            </a>
-                            </span>
-                        </li>
-                        ))}
-                    </ul>
+                    <a className="navbar-brand" href="/">
+                        <img 
+                        src={logo2}
+                        alt="name-logo" 
+                        className="icon-logo"
+                        /> ayla Dombrosky
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav mb-2 d-flex">
+                            {categories.map((category) => (
+                            // Set class to 'active' if the current category has been selected 
+                            <li
+                            className={`nav-item mx-2 fs-5 ${currentCategory.name === category.name && `active`}`}
+                            key={category.name}
+                            data-testid={`#${category.name}`}
+                            >
+                                <span onClick={() => { setCurrentCategory(category) }}>
+                                <a 
+                                href={`#${category.name}`}
+                                className='nav-link '>
+                                    {category.name}
+                                </a>
+                                </span>
+                            </li>
+                            ))}
+                        </ul>
+                    </div>
+
                 </div>
             </nav>
         </header>
