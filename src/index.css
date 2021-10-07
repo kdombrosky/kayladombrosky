@@ -26,35 +26,38 @@ header {
   padding-top: 0;
 }
 
+.space-top {
+  padding-top: 5rem;
+}
+
 .container-space {
-  padding: 6rem 5rem;
+  padding: 5rem;
 }
 
 .profile-pic {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 3rem;
 }
 
 .blob-container {
   display: block;
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   position: relative;
   text-align: center;
 }
+
 .overlay-container {
   position: absolute;
-  top: 300px;
-}
-.overlay-heading {
-
+  top: 45%;
+  left: 20%;
 }
 
-.heading-center {
-  position: absolute;
-}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
