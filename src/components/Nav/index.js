@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'; 
 
 import logo from '../../assets/logo2.png';
+import logo2 from '../../assets/logo.png';
 
 function Nav(props) {
     const {
@@ -9,9 +10,9 @@ function Nav(props) {
         currentCategory
     } = props;
 
-    useEffect(() => {
-        document.title = (currentCategory.name);
-    }, [currentCategory]);
+    // useEffect(() => {
+    //     document.title = (currentCategory.name);
+    // }, [currentCategory]);
 
     return(
         <header>
@@ -19,9 +20,10 @@ function Nav(props) {
                 <div className="container">
                 <a className="navbar-brand" href="/">
                     <img 
-                    src={logo}
+                    src={logo2}
                     alt="name-logo" 
-                    />
+                    className="icon-logo"
+                    /> ayla Dombrosky
                 </a>
                     <ul className="navbar-nav mb-2 d-flex">
                         {categories.map((category) => (

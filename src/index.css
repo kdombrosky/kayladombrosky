@@ -11,12 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* To make all images fit containers */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 header {
   /* font-family: 'Azeret Mono', monospace; */
@@ -24,7 +18,9 @@ header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.icon-logo {
+  width: 12%;
+}
 
 .navbar {
   padding-top: 0;
@@ -35,15 +31,25 @@ header {
 }
 
 .profile-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
   border-radius: 3rem;
 }
 
 .blob-container {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   position: relative;
   text-align: center;
+}
+.overlay-container {
+  position: absolute;
+  top: 300px;
+}
+.overlay-heading {
+
 }
 
 .heading-center {
