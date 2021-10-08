@@ -1,12 +1,13 @@
 import React from 'react'; 
 import theBotanist from '../../assets/the-botanist-preview.png';
 import geoRandomizer from '../../assets/geographic-randomizer-preview.png';
+import huntForHelpers from '../../assets/hunt-for-helpers-preview.png';
 
 function Projects() {
     const projects = [
         {
             title: "The Botanist",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elitese, a sed do eiusmod tempor incididunt ut labore et dolorean magna aliqua.",
+            description: "The Botanist is a full-stack e-commerce site, that simulates a complete shopping experience and checkout process. Users may create an account to make purchases and save the details to review later on in their own account dashboard.",
             icons: "",
             technologies: [
                 'React',
@@ -19,12 +20,12 @@ function Projects() {
                 'Stripe'
             ],
             img: {theBotanist},
-            repo: "",
-            deployed: ""
+            repo: "https://github.com/jayMaverick/The-Botanist",
+            deployed: "https://the-botanist-project.herokuapp.com/"
         },
         {
             title: "Hunt for Helpers",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elites, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            description: "Hunt for Helpers is a social media site that performs all the essential functions to make community service events more readily known and to encourage users to get more involved in their respective communities. Users will be able to create, edit, or cancel any events that they have organized, as well as join events that have already been created.",
             icons: "",
             technologies: [
                 'Handlebars.js',
@@ -33,21 +34,22 @@ function Projects() {
                 'Express.js',
                 'Node'
             ],
-            repo: "",
+            repo: "https://github.com/kdombrosky/hunt-for-helpers",
             deployed: ""
         },
         {
             title: "Geographic Randomizer",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            description: "The Geographic Randomizer was made for users who want to utilize a bit of random decision making to their day. Users may grant their browser access to their location, and then choosing how far they would like to drive, and to what type of destination (restaurants or points of interest). From there the user can see the travel time to the destination, and save the place to their local storage.",
             icons: "",
             technologies: [
                 'HTML5',
                 'Materialize CSS',
                 'JavaScript',
+                'jQuery',
                 'Google Maps API'
             ],
-            repo: "",
-            deployed: ""
+            repo: "https://github.com/Aswebilius/Travel-Mate-Geographic-Randomizer",
+            deployed: "https://aswebilius.github.io/Travel-Mate-Geographic-Randomizer/"
         }
     ]
 
@@ -69,54 +71,61 @@ function Projects() {
 
         {/* Projects */}
         {/* The Botanist */}
-        <div className="row row-eq-height align-items-center space-bottom">
+        <div className="row space-bottom">
             <div className="col-7">
                 <img src={theBotanist} alt="The Botanist Preview" className="contained-img shadow-sm" />
             </div>
 
-            <div className="col-5 bg-light card d-flex align-items-stretch">
-                <div className="card-body">
-                    <h2 className="card-title d-flex justify-content-end px-2">{projects[0].title}</h2>
+            <div className="col-5 bg-light card shadow-sm">
+                <div className="card-body ">
+                    <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[0].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[0].description}</p>
                     <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
-                    <a href="#">GitHub Repo</a>
-                    <a href="#">Heroku Deployment</a>
+                    <div className="d-flex justify-content-end"> 
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[0].repo} className="text-light">GitHub Repo</a></button>
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[0].deployed} className="text-light ">Heroku Deployment</a></button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
 
 
         {/* Hunt for Helpers */}
-        <div className="row row-eq-height align-items-center space-bottom">
-            <div className="col-5 bg-light card">
+        <div className="row space-bottom">
+            <div className="col-5 bg-dark shadow-sm  text-white card">
                 <div className="card-body">
-                    <h2 className="card-title d-flex justify-content-end px-2">{projects[2].title}</h2>
-                    <p className="lead d-flex justify-content-end">{projects[2].description}</p>
-                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
-                    <a href="#">GitHub Repo</a>
-                    <a href="#">Heroku Deployment</a>
+                    <h2 className="card-title py-3 px-1">{projects[1].title}</h2>
+                    <p className="lead">{projects[1].description}</p>
+                    <p className="card-subtitle text-light"><strong>Made with:</strong> Handlebars.js, Bootstrap CSS, SQL, Sequelize, Express.js, Node </p>
+                    <div className="d-flex justify-content-end"> 
+                        <button type="button" class="btn btn-light mx-1"><a href={projects[1].repo} className="px-1 text-dark">GitHub Repo</a></button>
+                        <button type="button" class="btn btn-light mx-1"><a href={projects[1].deployed} className="px-1 text-dark">Heroku Deployment</a></button>
+                    </div>
                 </div>
             </div>
 
             <div className="col-7">
-                <img src={geoRandomizer} alt="The Botanist Preview" className="contained-img shadow-sm" />
+                <img src={huntForHelpers} alt="The Botanist Preview" className="contained-img shadow-sm" />
             </div>
         </div>
 
 
         {/* Geographic Randomizer */}
-        <div className="row row-eq-height align-items-center">
+        <div className="row">
             <div className="col-7">
                 <img src={geoRandomizer} alt="The Botanist Preview" className="contained-img shadow-sm" />
             </div>
 
-            <div className="col-5 bg-light card">
+            <div className="col-5 bg-light card shadow-sm">
                 <div className="card-body">
-                    <h2 className="card-title d-flex justify-content-end px-2">{projects[2].title}</h2>
+                    <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[2].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[2].description}</p>
-                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
-                    <a href="#">GitHub Repo</a>
-                    <a href="#">GitHub Pages</a>
+                    <p className="card-subtitle text-muted"><strong>Made with:</strong> HTML5, Materialize CSS, JavaScript, jQuery, Google Maps API </p>
+                    <div className="d-flex justify-content-end"> 
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[2].repo} className="text-light">GitHub Repo</a></button>
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[2].deployed} className="text-light ">GitHub Pages</a></button>
+                    </div>
                 </div>
             </div>
         </div>
