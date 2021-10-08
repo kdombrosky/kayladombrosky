@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react'; 
-
-import logo from '../../assets/logo2.png';
-import logo2 from '../../assets/logo.png';
+import React from 'react'; 
+import logo from '../../assets/logo.png';
 
 function Nav(props) {
     const {
@@ -18,9 +16,9 @@ function Nav(props) {
         <header>
             <nav className="navbar navbar-light fixed-top navbar-expand-lg bg-light"> 
                 <div className="container">
-                    <a className="navbar-brand" href="/">
+                    <a className="navbar-brand" href="#hero">
                         <img 
-                        src={logo2}
+                        src={logo}
                         alt="name-logo" 
                         className="icon-logo"
                         /> ayla Dombrosky

@@ -54,9 +54,9 @@ function Projects() {
     ]
 
     return (
-    <div className="container">
+    <div className="container" id="projects">
         {/* Heading */}
-        <div className="row align-items-center">
+        <div className="row">
             <div className="col-8 "></div>
             <div className="col-4">
                 <div className="position-relative">
@@ -64,7 +64,7 @@ function Projects() {
                     <path fill="#D0E2FF" d="M51.9,-22.5C65.2,-6.8,72.7,19.8,63.1,34.2C53.5,48.6,26.7,50.8,0.9,50.3C-24.9,49.7,-49.8,46.4,-61,31.1C-72.2,15.8,-69.7,-11.5,-57.3,-26.7C-44.8,-41.9,-22.4,-45,-1.6,-44C19.2,-43.1,38.5,-38.2,51.9,-22.5Z" transform="translate(100 100)" />
                     </svg>
                     
-                    <h1 className="overlay-container display-6"><strong>My Projects</strong></h1>
+                    <h1 className="overlay-container display-6" ><strong>My Projects</strong></h1>
                 </div>
             </div>
         </div>
@@ -82,8 +82,8 @@ function Projects() {
                     <p className="lead d-flex justify-content-end">{projects[0].description}</p>
                     <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
                     <div className="d-flex justify-content-end"> 
-                        <button type="button" class="btn btn-dark mx-1"><a href={projects[0].repo} className="text-light">GitHub Repo</a></button>
-                        <button type="button" class="btn btn-dark mx-1"><a href={projects[0].deployed} className="text-light ">Heroku Deployment</a></button>
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[0].repo} className="text-light" target="_blank" rel="noreferrer">GitHub Repo</a></button>
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[0].deployed} className="text-light" target="_blank" rel="noreferrer">Heroku Deployment</a></button>
                     </div>
                     
                 </div>
@@ -99,8 +99,8 @@ function Projects() {
                     <p className="lead">{projects[1].description}</p>
                     <p className="card-subtitle text-light"><strong>Made with:</strong> Handlebars.js, Bootstrap CSS, SQL, Sequelize, Express.js, Node </p>
                     <div className="d-flex justify-content-end"> 
-                        <button type="button" class="btn btn-light mx-1"><a href={projects[1].repo} className="px-1 text-dark">GitHub Repo</a></button>
-                        <button type="button" class="btn btn-light mx-1"><a href={projects[1].deployed} className="px-1 text-dark">Heroku Deployment</a></button>
+                        <button type="button" class="btn btn-light mx-1"><a href={projects[1].repo} className="px-1 text-dark" target="_blank" rel="noreferrer">GitHub Repo</a></button>
+                        <button type="button" class="btn btn-light mx-1"><a href={projects[1].deployed} className="px-1 text-dark" target="_blank" rel="noreferrer">Heroku Deployment</a></button>
                     </div>
                 </div>
             </div>
@@ -123,8 +123,8 @@ function Projects() {
                     <p className="lead d-flex justify-content-end">{projects[2].description}</p>
                     <p className="card-subtitle text-muted"><strong>Made with:</strong> HTML5, Materialize CSS, JavaScript, jQuery, Google Maps API </p>
                     <div className="d-flex justify-content-end"> 
-                        <button type="button" class="btn btn-dark mx-1"><a href={projects[2].repo} className="text-light">GitHub Repo</a></button>
-                        <button type="button" class="btn btn-dark mx-1"><a href={projects[2].deployed} className="text-light ">GitHub Pages</a></button>
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[2].repo} className="text-light" target="_blank" rel="noreferrer">GitHub Repo</a></button>
+                        <button type="button" class="btn btn-dark mx-1"><a href={projects[2].deployed} className="text-light" target="_blank" rel="noreferrer">GitHub Pages</a></button>
                     </div>
                 </div>
             </div>
