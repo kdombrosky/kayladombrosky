@@ -1,10 +1,12 @@
 import React from 'react'; 
+import theBotanist from '../../assets/the-botanist-preview.png';
+import geoRandomizer from '../../assets/geographic-randomizer-preview.png';
 
 function Projects() {
     const projects = [
         {
             title: "The Botanist",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elitese, a sed do eiusmod tempor incididunt ut labore et dolorean magna aliqua.",
             icons: "",
             technologies: [
                 'React',
@@ -15,11 +17,14 @@ function Projects() {
                 'Node',
                 'OAuth',
                 'Stripe'
-            ]
+            ],
+            img: {theBotanist},
+            repo: "",
+            deployed: ""
         },
         {
             title: "Hunt for Helpers",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elites, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             icons: "",
             technologies: [
                 'Handlebars.js',
@@ -27,18 +32,22 @@ function Projects() {
                 'Sequelize',
                 'Express.js',
                 'Node'
-            ]
+            ],
+            repo: "",
+            deployed: ""
         },
         {
             title: "Geographic Randomizer",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             icons: "",
             technologies: [
                 'HTML5',
                 'Materialize CSS',
                 'JavaScript',
                 'Google Maps API'
-            ]
+            ],
+            repo: "",
+            deployed: ""
         }
     ]
 
@@ -59,7 +68,58 @@ function Projects() {
         </div>
 
         {/* Projects */}
-        
+        {/* The Botanist */}
+        <div className="row row-eq-height align-items-center space-bottom">
+            <div className="col-7">
+                <img src={theBotanist} alt="The Botanist Preview" className="contained-img shadow-sm" />
+            </div>
+
+            <div className="col-5 bg-light card d-flex align-items-stretch">
+                <div className="card-body">
+                    <h2 className="card-title d-flex justify-content-end px-2">{projects[0].title}</h2>
+                    <p className="lead d-flex justify-content-end">{projects[0].description}</p>
+                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">Heroku Deployment</a>
+                </div>
+            </div>
+        </div>
+
+
+        {/* Hunt for Helpers */}
+        <div className="row row-eq-height align-items-center space-bottom">
+            <div className="col-5 bg-light card">
+                <div className="card-body">
+                    <h2 className="card-title d-flex justify-content-end px-2">{projects[2].title}</h2>
+                    <p className="lead d-flex justify-content-end">{projects[2].description}</p>
+                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">Heroku Deployment</a>
+                </div>
+            </div>
+
+            <div className="col-7">
+                <img src={geoRandomizer} alt="The Botanist Preview" className="contained-img shadow-sm" />
+            </div>
+        </div>
+
+
+        {/* Geographic Randomizer */}
+        <div className="row row-eq-height align-items-center">
+            <div className="col-7">
+                <img src={geoRandomizer} alt="The Botanist Preview" className="contained-img shadow-sm" />
+            </div>
+
+            <div className="col-5 bg-light card">
+                <div className="card-body">
+                    <h2 className="card-title d-flex justify-content-end px-2">{projects[2].title}</h2>
+                    <p className="lead d-flex justify-content-end">{projects[2].description}</p>
+                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">GitHub Pages</a>
+                </div>
+            </div>
+        </div>
 
     </div>
     );
