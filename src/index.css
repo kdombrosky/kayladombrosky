@@ -20,10 +20,32 @@ header {
 
 a:link { text-decoration: none; }
 
+textarea {
+  resize: none;
+}
 
 .icon-logo {
   width: 12%;
 }
+
+.bg-purple {
+  background-color: #D0E2FF;
+  display: block;
+  width: 100%;
+}
+
+.bg-purple:hover {
+  background-color: #bcd4fc;
+}
+
+.text-purple {
+  color: #7cabfc;
+}
+
+.text-purple:hover {
+  color: #5d97fc;
+}
+
 
 .navbar {
   padding-top: 0;
@@ -80,6 +102,10 @@ a:link { text-decoration: none; }
   justify-content: end;
 }
 
+.form-container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 
 
 code {
