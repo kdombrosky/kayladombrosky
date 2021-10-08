@@ -44,8 +44,8 @@ function Contact() {
                                 </a></p>
                             </div>
 
-                            <div className="d-flex justify-content-center align-items-center">
-                                <a href="https://drive.google.com/file/d/1LwwFUGpWUvVmZHcS8V9QLl-D-fIPxwH_/view" target="_blank" rel="noreferrer" className="lead" id="resume">Online resume here</a>
+                            <div className="d-flex justify-content-center align-items-center" >
+                                <a href="https://drive.google.com/file/d/1LwwFUGpWUvVmZHcS8V9QLl-D-fIPxwH_/view" target="_blank" rel="noreferrer" className="lead text-dark" >Online resume here</a>
                             </div>
                         </div>
                     </div>
@@ -112,30 +112,31 @@ function Contact() {
                             />
                         </div>
 
-                        <button type="submit" disabled={state.submitting} className="btn bg-purple text-dark btn-lg btn-block">
+                        <button type="submit" disabled={state.submitting} className="submit-btn btn bg-purple text-dark btn-lg btn-block">
                             Submit
                         </button>
                     </form>
                 </div>
 
                 <div className="col-6">
+                    <div className="pt-4">
                     <p className="lead text-center pb-3">You may also find me around here</p>
-                    <div className="d-flex justify-content-center align-items-center">
+                    <div className="d-flex justify-content-center">
                         <p><a href="https://github.com/kdombrosky" target="_blank" rel="noreferrer">
-                            <i className="fab fa-github-square fa-5x text-dark mx-2"></i>
+                            <i className="fab fa-github-square fa-5x text-purple mx-2"></i>
                         </a></p>
                         <p><a href="https://www.linkedin.com/in/kdombrosky/" target="_blank" rel="noreferrer">
-                            <i className="fab fa-linkedin fa-5x text-dark mx-2"></i>
+                            <i className="fab fa-linkedin fa-5x text-purple mx-2"></i>
                         </a></p>
 
                         <p><a href="https://www.linkedin.com/in/kdombrosky/" target="_blank" rel="noreferrer">
-                            <i className="fab fa-twitter-square fa-5x text-dark mx-2"></i>
+                            <i className="fab fa-twitter-square fa-5x text-purple mx-2"></i>
                         </a></p>
+                    </div>
 
-                        <p><a href="https://www.linkedin.com/in/kdombrosky/" target="_blank" rel="noreferrer">
-                            <i className="far fa-file-alt fa-5x text-dark mx-2"></i>
-                        </a></p>
-
+                    <div className="d-flex justify-content-center" >
+                        <button type="button" className="btn bg-purple text-dark btn-lg px-4"><a href="https://drive.google.com/file/d/1LwwFUGpWUvVmZHcS8V9QLl-D-fIPxwH_/view" target="_blank" rel="noreferrer" className="lead" >Online resume here</a></button>
+                    </div>
                     </div>
                 </div>
             </div>

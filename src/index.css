@@ -28,10 +28,14 @@ textarea {
   width: 12%;
 }
 
-.bg-purple {
-  background-color: #D0E2FF;
+.submit-btn {
   display: block;
   width: 100%;
+}
+
+.bg-purple {
+  background-color: #D0E2FF;
+  
 }
 
 .bg-purple:hover {
