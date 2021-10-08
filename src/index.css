@@ -11,6 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+svg {
+  filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.1));
+}
 
 header {
   /* font-family: 'Azeret Mono', monospace; */

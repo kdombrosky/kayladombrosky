@@ -73,11 +73,11 @@ function Projects() {
         {/* The Botanist */}
         <div className="row space-bottom">
             <div className="col-7">
-                <img src={theBotanist} alt="The Botanist Preview" className="contained-img shadow-sm" />
+                <img src={theBotanist} alt="The Botanist Preview" className="contained-img shadow-sm rounded" />
             </div>
 
-            <div className="col-5 bg-light card shadow-sm">
-                <div className="card-body ">
+            <div className="col-5 bg-light card ">
+                <div className="card-body">
                     <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[0].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[0].description}</p>
                     <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
@@ -106,7 +106,7 @@ function Projects() {
             </div>
 
             <div className="col-7">
-                <img src={huntForHelpers} alt="The Botanist Preview" className="contained-img shadow-sm" />
+                <img src={huntForHelpers} alt="Hunt for Helpers Preview" className="rounded contained-img shadow-sm" />
             </div>
         </div>
 
@@ -114,7 +114,7 @@ function Projects() {
         {/* Geographic Randomizer */}
         <div className="row">
             <div className="col-7">
-                <img src={geoRandomizer} alt="The Botanist Preview" className="contained-img shadow-sm" />
+                <img src={geoRandomizer} alt="Geographic Randomizer Preview" className="rounded contained-img shadow-sm" />
             </div>
 
             <div className="col-5 bg-light card shadow-sm">
