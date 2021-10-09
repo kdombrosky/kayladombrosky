@@ -23,13 +23,13 @@ function Contact() {
 
                 <div className="container mb-5">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-sm-12">
                             <p className="lead text-center pb-3">Interested in working on a project? Shoot me an e-mail.</p>
 
                             <p className="lead text-center pb-3">Thanks for your message! I will be in contact shortly.</p>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-lg-6 col-sm-12">
                             <p className="lead text-center pb-3">You may also find me around here</p>
                             <div className="d-flex justify-content-center align-items-center">
                                 <p><a href="https://github.com/kdombrosky" target="_blank" rel="noreferrer">
@@ -72,7 +72,7 @@ function Contact() {
 
         <div className="container mb-5">
             <div className="row">
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                     <p className="lead text-center">Interested in working on a project? Shoot me an e-mail.</p>
 
                     <form onSubmit={handleSubmit} className="form-container">
@@ -118,7 +118,7 @@ function Contact() {
                     </form>
                 </div>
 
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                     <div className="pt-4">
                     <p className="lead text-center pb-3">You may also find me around here</p>
                     <div className="d-flex justify-content-center">

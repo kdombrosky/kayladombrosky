@@ -23,6 +23,8 @@ header {
 
 a:link { text-decoration: none; }
 
+
+
 textarea {
   resize: none;
 }
@@ -70,6 +72,7 @@ textarea {
   border: none;
 }
 
+
 .container-space {
   padding: 5rem;
 }
@@ -93,10 +96,9 @@ textarea {
 
 .blob-container {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   position: relative;
-  text-align: center;
 }
 
 .overlay-container {
@@ -120,3 +122,17 @@ code {
     monospace;
 }
 
+
+@media only screen and (max-width: 900px) {
+  .container-space {
+    padding: 3rem 2rem;
+  }
+
+  .space-top {
+    padding-top: 2rem;
+  }
+
+  .form-container {
+    padding: 0;
+  }
+}

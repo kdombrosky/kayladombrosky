@@ -59,7 +59,7 @@ function Projects() {
         <div className="row">
             <div className="col-8 "></div>
             <div className="col-4">
-                <div className="position-relative">
+                <div className="position-relative ">
                     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="blob-container">
                     <path fill="#D0E2FF" d="M51.9,-22.5C65.2,-6.8,72.7,19.8,63.1,34.2C53.5,48.6,26.7,50.8,0.9,50.3C-24.9,49.7,-49.8,46.4,-61,31.1C-72.2,15.8,-69.7,-11.5,-57.3,-26.7C-44.8,-41.9,-22.4,-45,-1.6,-44C19.2,-43.1,38.5,-38.2,51.9,-22.5Z" transform="translate(100 100)" />
                     </svg>
@@ -72,11 +72,11 @@ function Projects() {
         {/* Projects */}
         {/* The Botanist */}
         <div className="row space-bottom">
-            <div className="col-7">
+            <div className="col-lg-7 col-sm-12">
                 <img src={theBotanist} alt="The Botanist Preview" className="contained-img shadow-sm rounded" />
             </div>
 
-            <div className="col-5 bg-light card ">
+            <div className="col-lg-5 col-sm-12 bg-light card ">
                 <div className="card-body">
                     <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[0].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[0].description}</p>
@@ -93,7 +93,7 @@ function Projects() {
 
         {/* Hunt for Helpers */}
         <div className="row space-bottom">
-            <div className="col-5 bg-dark shadow-sm  text-white card">
+            <div className="col-lg-5 col-sm-12 bg-dark shadow-sm  text-white card">
                 <div className="card-body">
                     <h2 className="card-title py-3 px-1">{projects[1].title}</h2>
                     <p className="lead">{projects[1].description}</p>
@@ -105,7 +105,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div className="col-7">
+            <div className="col-lg-7 col-sm-12">
                 <img src={huntForHelpers} alt="Hunt for Helpers Preview" className="rounded contained-img shadow-sm" />
             </div>
         </div>
@@ -113,11 +113,11 @@ function Projects() {
 
         {/* Geographic Randomizer */}
         <div className="row">
-            <div className="col-7">
+            <div className="col-lg-7 col-sm-12">
                 <img src={geoRandomizer} alt="Geographic Randomizer Preview" className="rounded contained-img shadow-sm" />
             </div>
 
-            <div className="col-5 bg-light card shadow-sm">
+            <div className="col-lg-5 col-sm-12 bg-light card shadow-sm">
                 <div className="card-body">
                     <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[2].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[2].description}</p>
