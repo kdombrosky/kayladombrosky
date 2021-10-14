@@ -19,15 +19,15 @@ function Nav(props) {
                     <a className="navbar-brand" href="#hero">
                         <img 
                             src={logo}
-                            alt="name-logo" 
+                            alt="'k'" 
                             className="icon-logo"
                         /> ayla Dombrosky</a>
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mb-2 d-flex">
                             {categories.map((category) => (
                             // Set class to 'active' if the current category has been selected 

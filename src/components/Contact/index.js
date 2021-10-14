@@ -62,7 +62,6 @@ function Contact() {
                     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="blob-container">
                     <path fill="#D0E2FF" d="M50.1,-19.2C64,-4.7,74,21.9,65,38.5C56,55,28,61.6,0.3,61.4C-27.3,61.2,-54.6,54.3,-68,35.2C-81.4,16.1,-80.8,-15.1,-67.2,-29.4C-53.5,-43.7,-26.8,-41.1,-4.4,-38.6C18,-36.1,36.1,-33.6,50.1,-19.2Z" transform="translate(100 100)" />
                     </svg>
-
                     <h1 className="overlay-container display-6"><strong>Contact Me</strong></h1>
                 </div>
             </div>
@@ -73,7 +72,7 @@ function Contact() {
         <div className="container mb-5">
             <div className="row">
                 <div className="col-lg-6 col-sm-12">
-                    <p className="lead text-center">Interested in working on a project? Shoot me an e-mail.</p>
+                    <p className="lead text-center">Interested in working together? Shoot me an e-mail.</p>
 
                     <form onSubmit={handleSubmit} className="form-container">
                         <div className="form-group">
