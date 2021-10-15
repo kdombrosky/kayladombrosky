@@ -134,7 +134,7 @@ function Contact() {
                     </div>
 
                     <div className="d-flex justify-content-center" >
-                        <button type="button" className="btn bg-purple text-dark btn-lg px-4"><a href="https://drive.google.com/file/d/1LwwFUGpWUvVmZHcS8V9QLl-D-fIPxwH_/view" target="_blank" rel="noreferrer" className="lead" >Online resume here</a></button>
+                        <button type="button" className="btn bg-purple text-dark btn-lg px-4"><a href="https://drive.google.com/file/d/1yV-CZIOlKEdtHw5svz8nNFw6Srk-3O7-/view?usp=sharing" target="_blank" rel="noreferrer" className="lead" >Online resume here</a></button>
                     </div>
                     </div>
                 </div>
