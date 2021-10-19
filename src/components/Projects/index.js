@@ -35,7 +35,7 @@ function Projects() {
                 'Node'
             ],
             repo: "https://github.com/kdombrosky/hunt-for-helpers",
-            deployed: ""
+            deployed: "https://sheltered-savannah-38970.herokuapp.com/"
         },
         {
             title: "Geographic Randomizer",
