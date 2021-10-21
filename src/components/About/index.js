@@ -7,7 +7,7 @@ const About = () => {
             I am currently looking to fill a front-end position to continue learning and applying more advanced design techniques and efficient coding algorithms!  
             </p>
             <p className="lead"><strong>Technical Skills:</strong> React, GraphQL, MongoDB, Mongoose, Express.js, Node.js, OAuth, Redux, IndexDB, REST API, HTML5, JavaScript, CSS, Bootstrap, Materialize, Tailwind CSS</p>
-            <p className="lead"><strong>Currently Learning:</strong> AWS, Python, Vue.js, Next.js</p>
+            <p className="lead"><strong>Currently Learning:</strong> SVGs, CSS animations</p>
         </div>
     )
 }
