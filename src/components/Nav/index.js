@@ -45,6 +45,11 @@ function Nav(props) {
                                 </span>
                             </li>
                             ))}
+                            <li className="nav-item mx-2 fs-5">
+                                <a href="https://drive.google.com/file/d/1Szt154reaUxFIDLkR4jrX8vk5DxoUhdS/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">
+                                    resume
+                                </a>
+                                </li>
                         </ul>
                     </div>
 
