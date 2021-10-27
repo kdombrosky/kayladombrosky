@@ -57,8 +57,13 @@ textarea {
 }
 
 .icon-logo {
-  width: 12%;
+  width: 10%;
 }
+
+.navbar > .container > .navbar-brand{
+  flex-basis: 50%;
+}
+
 /* End Navbar */
 
 /* -----Hero----- */
@@ -142,6 +147,10 @@ textarea {
   .container-space{
     padding: 2rem !important;
   }
+
+  .navbar > .container > .navbar-brand > img{
+    width: 15%
+  }
 }
 
 @media (max-width: 900px) {
@@ -159,6 +168,8 @@ textarea {
 }
 
 @media (max-width: 438px) {
-  
+  .navbar > .container > .navbar-brand > img{
+    width: 17%
+  }
 }
 
