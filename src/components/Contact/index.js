@@ -35,6 +35,7 @@ function Contact() {
                                 <p><a href="https://github.com/kdombrosky" target="_blank" rel="noreferrer">
                                     <i className="fab fa-github-square fa-5x text-purple mx-2"></i>
                                 </a></p>
+
                                 <p><a href="https://www.linkedin.com/in/kdombrosky/" target="_blank" rel="noreferrer">
                                     <i className="fab fa-linkedin fa-5x text-purple mx-2"></i>
                                 </a></p>
@@ -131,12 +132,16 @@ function Contact() {
                         <p><a href="https://www.linkedin.com/in/kdombrosky/" target="_blank" rel="noreferrer">
                             <i className="fab fa-twitter-square fa-5x text-purple mx-2"></i>
                         </a></p>
+
+                        <p><a href="mailto:kdombroskyy@gmail.com" target="_blank" rel="noreferrer">
+                            <i className="fas fa-envelope-square fa-5x text-purple mx-2"></i>
+                        </a></p>
                     </div>
 
                     <div className="d-flex justify-content-center" >
                         <button type="button" className="btn bg-purple text-dark btn-lg px-4">
                             <a href="https://drive.google.com/file/d/1mhCkVQEW8SxJkPQPhlettk1WbqKbZ6V5/view?usp=sharing" target="_blank" rel="noreferrer" className="lead">
-                                Online resume here
+                                Online Resume
                             </a>
                         </button>
                     </div>

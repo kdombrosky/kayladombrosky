@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../assets/logo.png';
 
 function Nav(props) {
+    // destructure props
     const {
         categories = [],
         setCurrentCategory,
@@ -49,7 +50,7 @@ function Nav(props) {
                                 <a href="https://drive.google.com/file/d/1Szt154reaUxFIDLkR4jrX8vk5DxoUhdS/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">
                                     resume
                                 </a>
-                                </li>
+                            </li>
                         </ul>
                     </div>
 

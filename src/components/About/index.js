@@ -4,10 +4,12 @@ const About = () => {
     return (
         <div className="container space-top" id="about">
             <p className="lead pb-3">Full-Stack Developer with a background in events and production, with a passion for creating fun and meaningful projects. 
-            I am currently looking to fill a front-end position to continue learning and applying more advanced design techniques and efficient coding algorithms!  
+            Highly interested in filling a front-end position to continue learning and practicing leading design techniques!   
             </p>
-            <p className="lead"><strong>Technical Skills:</strong> React, GraphQL, MongoDB, Mongoose, Express.js, Node.js, OAuth, Redux, IndexDB, REST API, HTML5, JavaScript, CSS, Bootstrap, Materialize, Tailwind CSS</p>
-            <p className="lead"><strong>Currently Learning:</strong> SVGs, CSS animations</p>
+            <p className="h4"><strong>Technologies</strong></p>
+            <p className="lead"><strong>Front End:</strong> HTML5, JavaScript, CSS, React, GraphQL, Redux, IndexDB, REST API,  Bootstrap, Materialize, Tailwind CSS</p>
+            <p className="lead"><strong>Back End:</strong> Express.js, Node.js, MongoDB, Mongoose, OAuth, Redux, IndexDB, SQL, Sequelize</p>
+            {/* <p className="lead"><strong>Currently Learning:</strong> SVGs, CSS animations</p> */}
         </div>
     )
 }
