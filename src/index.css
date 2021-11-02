@@ -188,6 +188,12 @@ textarea {
   }
 }
 
+/* @media (max-width: 750px) {
+  #hero > .container {
+    margin: 0;
+  }
+} */
+
 @media (max-width: 575px) {
   .hero {
     padding: 4rem;

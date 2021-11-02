@@ -28,7 +28,7 @@ function Nav(props) {
                     <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarNav">
+                    <div className="collapse navbar-collapse text-center" id="navbarNav">
                         <ul className="navbar-nav mb-2 d-flex">
                             {categories.map((category) => (
                             // Set class to 'active' if the current category has been selected 
