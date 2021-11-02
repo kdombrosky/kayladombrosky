@@ -80,7 +80,7 @@ function Projects() {
                 <div className="card-body">
                     <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[0].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[0].description}</p>
-                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, Node, OAuth, Stripe </p>
+                    <p className="card-subtitle text-muted"><strong>Made with:</strong> React, Tailwind CSS, GraphQL, MongoDB, Express.js, OAuth, Stripe </p>
                     <div className="d-flex justify-content-end"> 
                         <button type="button" className="btn btn-dark mx-1"><a href={projects[0].repo} className="text-light" target="_blank" rel="noreferrer">GitHub Repo</a></button>
                         <button type="button" className="btn btn-dark mx-1"><a href={projects[0].deployed} className="text-light" target="_blank" rel="noreferrer">Heroku Deployment</a></button>
@@ -97,7 +97,7 @@ function Projects() {
                 <div className="card-body">
                     <h2 className="card-title py-3 px-1">{projects[1].title}</h2>
                     <p className="lead">{projects[1].description}</p>
-                    <p className="card-subtitle text-light"><strong>Made with:</strong> Handlebars.js, Bootstrap CSS, SQL, Sequelize, Express.js, Node </p>
+                    <p className="card-subtitle text-light"><strong>Made with:</strong> Handlebars.js, Bootstrap CSS, SQL, Sequelize, Express.js </p>
                     <div className="d-flex justify-content-end"> 
                         <button type="button" className="btn btn-light mx-1"><a href={projects[1].repo} className="px-1 text-dark" target="_blank" rel="noreferrer">GitHub Repo</a></button>
                         <button type="button" className="btn btn-light mx-1"><a href={projects[1].deployed} className="px-1 text-dark" target="_blank" rel="noreferrer">Heroku Deployment</a></button>
@@ -121,7 +121,7 @@ function Projects() {
                 <div className="card-body">
                     <h2 className="card-title d-flex justify-content-end py-3 px-2">{projects[2].title}</h2>
                     <p className="lead d-flex justify-content-end">{projects[2].description}</p>
-                    <p className="card-subtitle text-muted"><strong>Made with:</strong> HTML5, Materialize CSS, JavaScript, jQuery, Google Maps API </p>
+                    <p className="card-subtitle text-muted"><strong>Made with:</strong> HTML5, Materialize CSS, JavaScript, jQuery, Google Maps API, Google Places API </p>
                     <div className="d-flex justify-content-end"> 
                         <button type="button" className="btn btn-dark mx-1"><a href={projects[2].repo} className="text-light" target="_blank" rel="noreferrer">GitHub Repo</a></button>
                         <button type="button" className="btn btn-dark mx-1"><a href={projects[2].deployed} className="text-light" target="_blank" rel="noreferrer">GitHub Pages</a></button>

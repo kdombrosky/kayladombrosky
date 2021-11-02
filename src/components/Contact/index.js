@@ -140,7 +140,7 @@ function Contact() {
 
                     <div className="d-flex justify-content-center" >
                         <button type="button" className="btn bg-purple text-dark btn-lg px-4">
-                            <a href="https://drive.google.com/file/d/1mhCkVQEW8SxJkPQPhlettk1WbqKbZ6V5/view?usp=sharing" target="_blank" rel="noreferrer" className="lead">
+                            <a href="https://drive.google.com/file/d/1kP7-rYEk-DruI1UQAjkPclf2S3q8vciy/view?usp=sharing" target="_blank" rel="noreferrer" className="lead">
                                 Online Resume
                             </a>
                         </button>
