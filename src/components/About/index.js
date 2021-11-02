@@ -8,7 +8,7 @@ const About = () => {
             </svg> 
             <div className="bg-custom">
                 <div className="container" id="about">
-                    <p className="lead fs-4 pb-3">Full-Stack Developer with a background in events and production, with a passion for creating fun and meaningful projects. 
+                    <p className="lead fs-4 pb-3 text-center">Full-Stack Developer with a background in events and production, with a passion for creating fun and meaningful projects. 
                     Highly interested in filling a front-end position to continue learning and practicing leading design techniques!   
                     </p>
                     <p className="display-6 text-center">Technologies</p>
