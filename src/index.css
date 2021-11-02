@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-svg {
+.svg-shadow {
   filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.1));
 }
 
@@ -44,6 +44,10 @@ textarea {
 .container-space {
   padding: 5rem;
 }
+
+.bg-custom {
+  background-color: #D0E2FF;
+}
 /* End Utility  */
 
 
@@ -73,7 +77,18 @@ textarea {
   height: 100%;
   border-radius: 3rem;
 }
+
+.hero {
+  padding-top: 10rem;
+}
 /* End Hero */
+
+/* About */
+.icon-custom {
+  font-size: 7rem;
+  padding: 2rem;
+}
+/* End About */
 
 /* -----Heading Styles----- */
 .blob-container {
@@ -112,20 +127,24 @@ textarea {
   width: 100%;
 }
 
-.bg-purple {
+.bg-custom {
   background-color: #D0E2FF;
   
 }
 
-.bg-purple:hover {
-  background-color: #bcd4fc;
+.btn-custom {
+  background-color: #9dc0fa;
 }
 
-.text-purple {
-  color: #7cabfc;
+.btn-custom:hover {
+  background-color: #5d97fc;
 }
 
-.text-purple:hover {
+.text-custom {
+  color: white;
+}
+
+.text-custom:hover {
   color: #5d97fc;
 }
 
@@ -133,6 +152,8 @@ textarea {
   padding-left: 4rem;
   padding-right: 4rem;
 }
+
+
 /* End Form */
 
 
@@ -164,6 +185,12 @@ textarea {
 
   .form-container {
     padding: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero {
+    padding: 4rem;
   }
 }
 

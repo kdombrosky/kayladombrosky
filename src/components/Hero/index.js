@@ -3,8 +3,8 @@ import logo from '../../assets/profile-pic.png'
 
 function Hero() {
     return (
-    <div className="container container-space" id="hero">
-        <div className="row align-items-center justify-content-center pt-5">
+    <div className="container" id="hero">
+        <div className="row align-items-center justify-content-around hero">
             <div className="col-lg-8 col-sm-12  ">
                 <h1 className="display-6"><strong>Welcome to my portfolio, I'm Kayla.</strong></h1>
                 <h1 className="display-6"><strong>Front-End Developer.</strong></h1>
