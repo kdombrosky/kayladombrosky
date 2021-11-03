@@ -64,7 +64,7 @@ function Projects() {
         {/* The Botanist */}
         <div className="row space-bottom">
             <div className="col-lg-7 col-sm-12 ">
-                <img src={theBotanist} alt="The Botanist Preview" className="contained-img shadow-sm rounded" />
+                <img src={theBotanist} alt="The Botanist Preview" className="img-fluid shadow-sm rounded" />
             </div>
 
             <div className="col-lg-5 col-sm-12  bg-light card ">
@@ -97,7 +97,7 @@ function Projects() {
             </div>
 
             <div className="col-lg-7 col-sm-12">
-                <img src={huntForHelpers} alt="Hunt for Helpers Preview" className="rounded contained-img shadow-sm" />
+                <img src={huntForHelpers} alt="Hunt for Helpers Preview" className="rounded img-fluid shadow-sm" />
             </div>
         </div>
 
@@ -105,7 +105,7 @@ function Projects() {
         {/* Geographic Randomizer */}
         <div className="row">
             <div className="col-lg-7 col-sm-12">
-                <img src={geoRandomizer} alt="Geographic Randomizer Preview" className="rounded contained-img shadow-sm" />
+                <img src={geoRandomizer} alt="Geographic Randomizer Preview" className="rounded img-fluid shadow-sm" />
             </div>
 
             <div className="col-lg-5 col-sm-12 bg-light card shadow-sm">

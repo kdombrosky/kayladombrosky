@@ -13,7 +13,7 @@ function Hero() {
                     </div>
 
                     <div className="col-lg-4 col-sm-6">
-                        <img alt="profile" src={logo} className="profile-pic" />
+                        <img alt="profile" src={logo} className="img-fluid profile-pic" />
                     </div>
                 </div>
             </div>
