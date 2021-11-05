@@ -84,7 +84,7 @@ function Projects() {
 
         {/* Hunt for Helpers */}
         <div className="row space-bottom">
-            <div className="col-lg-5 col-sm-12 bg-dark shadow-sm  text-white card">
+            <div className="col-lg-5 col-sm-12 bg-dark shadow-sm text-white card">
                 <div className="card-body">
                     <h2 className="card-title py-3 px-1">{projects[1].title}</h2>
                     <p className="lead">{projects[1].description}</p>
