@@ -67,7 +67,7 @@ function Contact() {
 
                                 <form onSubmit={handleSubmit} className="form-container">
                                     <div className="form-group">
-                                        <label htmlFor="email" className="text-monospace pl-4">
+                                        <label htmlFor="email" className="px-1">
                                             Email Address
                                         </label>
                                         <input
@@ -85,7 +85,7 @@ function Contact() {
                                     </div>
 
                                     <div className="form-group mb-2">
-                                        <label htmlFor="message">
+                                        <label htmlFor="message" className="px-1">
                                             Message
                                         </label>
                                         <textarea
