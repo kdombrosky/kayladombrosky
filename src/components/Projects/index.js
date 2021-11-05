@@ -54,7 +54,7 @@ function Projects() {
     ]
 
     return (
-    <div className="container" id="projects">
+    <section className="container" id="projects">
         {/* Heading */}
         <div>
             <h2 className="text-center pb-4 display-4">My Projects</h2>
@@ -121,7 +121,7 @@ function Projects() {
             </div>
         </div>
 
-    </div>
+    </section>
     );
 }
 
