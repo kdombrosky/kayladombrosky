@@ -119,7 +119,7 @@ function Contact() {
                                             <i className="fab fa-linkedin fa-5x social-icon-custom mx-2"></i>
                                         </a></p>
 
-                                        <p><a href="https://www.linkedin.com/in/kdombrosky/" target="_blank" rel="noreferrer">
+                                        <p><a href="https://twitter.com/kae_aii" target="_blank" rel="noreferrer">
                                             <i className="fab fa-twitter-square fa-5x social-icon-custom mx-2"></i>
                                         </a></p>
 
