@@ -18,18 +18,15 @@ const About = () => {
                         <i className="devicon-html5-plain-wordmark tech-icon-custom"></i>
                         <i className="devicon-javascript-plain tech-icon-custom"></i>
                         <i className="devicon-css3-plain-wordmark tech-icon-custom"></i>
-                        <i className="devicon-graphql-plain-wordmark tech-icon-custom"></i>
                         <i className="devicon-bootstrap-plain-wordmark tech-icon-custom"></i>
                         <i className="devicon-tailwindcss-original-wordmark tech-icon-custom"></i>
                         <i className="devicon-mysql-plain-wordmark tech-icon-custom"></i>
                         <i className="devicon-mongodb-plain-wordmark tech-icon-custom"></i>
                         <i className="devicon-express-original-wordmark tech-icon-custom"></i>
+                        <i className="devicon-graphql-plain-wordmark tech-icon-custom"></i>
                         <i className="devicon-react-original-wordmark tech-icon-custom"></i>
                         <i className="devicon-nodejs-plain tech-icon-custom"></i>
                     </div>
-
-                    {/* HTML5, JavaScript, CSS, React, GraphQL, Redux, IndexedDB, REST API, Bootstrap, Materialize, Tailwind */}
-                    {/* <p className="lead mb-0"><strong>Back End:</strong> Express.js, Node.js, MongoDB, Mongoose, OAuth, SQL, Sequelize</p> */}
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
