@@ -10,7 +10,7 @@ const About = () => {
                 <div className="container">
                     <p className="lead fs-4 pb-3 text-center">
                     Full-Stack Developer with a passion for designing intuitive, fun and creative digital spaces. 
-                    Coming from a background of live and creative events and production, with a desire to include that inspiration in professional digital work as a Front-End Developer.  
+                    Coming from a background of live and creative events and production, with a desire to include that inspiration in professional digital work.  
                     </p>
                     <p className="display-6 text-center">Technologies</p>
 
